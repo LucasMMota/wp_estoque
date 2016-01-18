@@ -1,0 +1,32 @@
+/*
+Theme Name: Estoque Theme
+Description: modelo de tema para teste da Abril
+*/
+
+@import url('/wp-content/themes/estoqueTheme/assets/bootstrap.css');
+@import url('/wp-content/themes/estoqueTheme/assets/bootstrap-responsive.css');
+
+table, th, td, tr {
+    border: solid 2px #000;
+}
+
+th, td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+select {
+    height: 33px;
+}
+
+.coluna-editar {
+    text-transform: uppercase;
+}
+
+.btns-opcoes button {
+    width: 100px;
+}
+
+.menu li a:hover {
+    color: #383030;
+}
